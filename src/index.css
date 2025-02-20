@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  transition: all 0.35s ease-in-out;
+  
+}
+  @layer utilities {
+    html,
+    body {
+      overflow-x: hidden;
+      
+    }
+
+    .shad {
+      box-shadow: 4px 2px 16px -2px #1c64f24d;
+    }
+  }
